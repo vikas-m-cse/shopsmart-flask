@@ -13,4 +13,5 @@ def home():
     return "Home"
 
 if __name__ == "__main__":
+    SHIPPING_ANNOUNCEMENT = "Free shipping on orders above ₹1999!"
     app.run(debug=True)
